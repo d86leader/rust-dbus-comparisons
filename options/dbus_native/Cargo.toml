@@ -1,0 +1,10 @@
+[package]
+name = "dbus_native"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = { path = "../common" }
+dbus-native = {git = "https://github.com/diwic/dbus-rs", revision = "0d61670d3e9aa41d855825f8c26244fe1f6a2a2c"}

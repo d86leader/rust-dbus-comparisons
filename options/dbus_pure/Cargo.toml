@@ -1,0 +1,10 @@
+[package]
+name = "dbus_pure"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = { path = "../common" }
+dbus-pure = {git = "https://github.com/Arnavion/dbus-pure", revision = "830b63808ef9139f78b5dd098969e0995573afef"}

@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/0+git~c77db554/
+MessageParts	src/main.rs	/^pub struct MessageParts {$/;"	s
+bench_async_rustbus	src/main.rs	/^mod bench_async_rustbus;$/;"	n
+dict	src/main.rs	/^    pub dict: std::collections::HashMap<String, i32>,$/;"	m	struct:MessageParts
+int1	src/main.rs	/^    pub int1: u64,$/;"	m	struct:MessageParts
+int2	src/main.rs	/^    pub int2: u64,$/;"	m	struct:MessageParts
+int_array	src/main.rs	/^    pub int_array: Vec<u64>,$/;"	m	struct:MessageParts
+interface	src/main.rs	/^    pub interface: String,$/;"	m	struct:MessageParts
+main	src/main.rs	/^fn main() {$/;"	f
+make_big_array_message	src/main.rs	/^fn make_big_array_message() -> MessageParts {$/;"	f
+make_big_string_array_message	src/main.rs	/^fn make_big_string_array_message() -> MessageParts {$/;"	f
+make_mixed_message	src/main.rs	/^fn make_mixed_message() -> MessageParts {$/;"	f
+member	src/main.rs	/^    pub member: String,$/;"	m	struct:MessageParts
+object	src/main.rs	/^    pub object: String,$/;"	m	struct:MessageParts
+repeat	src/main.rs	/^    pub repeat: usize,$/;"	m	struct:MessageParts
+string1	src/main.rs	/^    pub string1: String,$/;"	m	struct:MessageParts
+string2	src/main.rs	/^    pub string2: String,$/;"	m	struct:MessageParts
+string_array	src/main.rs	/^    pub string_array: Vec<String>,$/;"	m	struct:MessageParts
